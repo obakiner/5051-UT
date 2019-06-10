@@ -20,6 +20,7 @@ namespace UnitTests.Models
             Assert.IsNotNull(result);
         }
 
+        [TestMethod]
         public void LogViewModel_Get_Default_Should_Pass()
         {
             // Arrange
@@ -31,6 +32,7 @@ namespace UnitTests.Models
             Assert.IsNotNull(result);
         }
 
+        [TestMethod]
         public void LogViewModel_Set_Default_Should_Pass()
         {
             // Arrange
